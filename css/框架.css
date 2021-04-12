@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}	
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.container{
+    width: 1280px;
+    margin: 0px auto ;
+}
+
+#top{
+    height: 5px;
+    background-color: rgb(246, 184, 30);
+}
+#header{
+    height: 30px;
+    background-color: #2d2d2d;
+    color: #666 ;
+}
+#header ul li{
+    float: left;
+    line-height: 30px;
+} 
+#header li a{
+    color: #b2b2b2;
+    font-size: 14px;
+    border-right: 1px solid #b2b2b2;
+    padding: 0px 15px ;
+}
+#header li a:hover{
+    color: #fff;
+}
+#header .earth img{
+    margin-top: 5.5px;
+    margin-right: 5px;
+    height: 18px;
+}
+#header .flag img{
+    height: 15px;
+    margin-top: 9px;
+}
+
+#header .no_right_border a{
+    border: none;
+}
+#header .no_right_border span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("img/购物车.png") ;
+}
+#main{
+    width: 100%;
+    height: 856px;
+    border: 1px solid #000;
+}
+
+
+
+
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: #2d2d2d;
+    position: fixed;
+    bottom: 0;
+}
+#footer img{
+    height: 20px;
+}
+#footer li{
+    float: left;
+    color: #b2b2b2;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer li a{
+    color: #b2b2b2;
+    font-size: 14px;
+}
+#footer li a:hover{
+    color: #fff;
+}
+#footer .necko li{
+    margin-right: 20px;
+}
+#footer .right a{
+    margin-left: 20px;
+}
