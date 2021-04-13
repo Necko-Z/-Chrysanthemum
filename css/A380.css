@@ -1,34 +1,76 @@
 #main{
     width: 100%;
-    height: 2856px;
+    height: 2150px;
 }
 
 .title{
     margin-top: 50px;
-    border-bottom: 3px rgb(246,184,30) dashed;
+    padding-bottom: 10px;
+    border-bottom: 3px rgb(246,184,30) double;
 }
 .title p{
     color: rgb(122, 122, 122);
     font-size: 14px;
 }
 .aircraft{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .airboxleft{
     width: 50%;
     float: left;
-    border: 1px solid #000;
 }
 .airboxleft img{
     width: 70%;
-    margin: 0 auto;
-    /* 手动居中 */
 }
+
+.tabbox {
+    width: 100%;
+    text-align: center;
+    height: 2000px;
+    margin: 0px auto;
+    font-family: '微软雅黑';
+}
+
+.tabbox .tab {
+    overflow: hidden;
+    background: #ccc;
+}
+
+.tabbox .tab a {
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+
+.tabbox .tab a:hover {
+    background: rgb(246,184,30);
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabbox .tab a.on {
+    background: rgb(246,184,30);
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabbox .content {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.tabbox .content li {
+    display: none;
+}
+
+
+
  .airboxright{
     width: 45%;
-    /* 去边框改成50 */
     float: left;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 
 table{
@@ -48,3 +90,16 @@ td{
 .lastline td{
     border: none;
 }
+.info{
+    margin-top: 20px;
+}
+.info p{
+    margin: 20px;
+}
+.info h3{
+    width: 90%;
+    border-bottom: 3px rgb(246,184,30) solid;
+    padding-bottom: 10px;
+}
+
+

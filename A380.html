@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> A380</title>
+	<title> A380-800</title>
 	<link rel="icon" href="img/logo-s.png">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/A380.css">
@@ -35,10 +35,8 @@
 			</div>
 			<ul class="right">
 				<li><a href="index.html">首页</a></li>
-				<li><a href="index.html#star">体验</a></li>
-				<li><a href="index.html#route">航线</a></li>
-				<li><a href="index.html#service">优惠</a></li>
-				<li><a href="index.html#after_sale">其他</a></li>
+				<li><a href="A380.html#main">参数</a></li>
+				<li><a href="A380.html#info">介绍</a></li>
 				<li class="searchlogo"><a href=""><img src="img/搜索.png" alt=""></a></li>
 				<li class="oneworld"><img src="img/oneworld.png" alt=""></li>
 			</ul>
@@ -47,16 +45,35 @@
 	<div id="main">
 		<div class="container">
 			<div class="title">
-				<h1>Airbus A380</h1>
+				<h1>Airbus A380-800</h1>
 				<p>目前在列：20</p>
 			</div>
 			<div class="aircraft">
 				<div class="airboxleft">
-					<img src="img/A380info.jpg" alt="" style="width: 100%;">
-					<img src="img/a380-main.jpg" alt="" >
+					<div class="tabbox">
+						<div class="tab">
+							<a href="javascript:;" class="on">一层座舱布局</a>
+							<a href="javascript:;">二层座舱布局</a>
+						</div>
+						<img src="img/info.jpg" alt="" style="width: 100%;">
+						<div class="content">
+							<ul>
+								<li>
+									<img src="img/a380-main.jpg" alt="">
+								</li>
+								<li>
+									<img src="img/a380-upper.jpg" alt="">
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+
+
 				</div>
 				<div class="airboxright">
 					<div class="table">
+						<h3>参数</h3>
 						<table>
 							<tr class="firstline">
 								<td>机材信息</td>
@@ -108,6 +125,39 @@
 							</tr>
 						</table>
 					</div>
+					<div class="info" id="info">
+						<h3>机型介绍</h3>
+						<p>此为空客380-800的520个座位的座位图。</p>
+						<p>共有2层，2层为头等舱、公务舱、豪华经济舱座位。</p>
+						<p>1层为经济舱座位。</p>
+						<p>2层座位数为头等舱座位8个、公务舱座位56个、豪华经济舱座位73个。</p>
+						<p>座位排数为第1排至第30排。</p>
+						<p>紧急出口在第5排的前方左右各设有1处，在第20排的前方左右各设有1处，在第28排的前方左右各设有1处。</p>
+						<p>楼梯在机体前方和后方各设有1个。</p>
+						<p>此为2层客舱座位的说明。</p>
+						<p>头等舱为第1排和第2排。</p>
+						<p>座位排列从左至右依次为A、通道、D、G、通道、K。</p>
+						<p>所有座位均设有桌板。</p>
+						<p>移动式隔板位于第1排、第2排的D与G之间。所有座位的扶手均不可抬升。</p>
+						<p>公务舱为第5排至第18排。</p>
+						<p>第5排、第7排、第9排、第11排、第13排、第15排、第17排的座位排列从左至右依次为A、通道、E、F、通道、K。</p>
+						<p>第6排、第8排、第10排、第12排、第14排、第16排、第18排的座位排列从左至右依次为C、通道、D、G、通道、H。</p>
+						<p>所有座位均设有桌板。</p>
+						<p>移动式隔板位于第5排、第7排、第9排、第11排、第13排、第15排、第17排的E与F之间。</p>
+						<p>所有座位的扶手均不可抬升。</p>
+						<p>豪华经济舱为第20排至第30排。</p>
+						<p>第20排座位的排列方式是从左到右依次为通道、D、F、G、通道。</p>
+						<p>第21排到第30排的座位排列从左至右依次为A、C、通道、D、F、G、通道、H、K。紧急出口座位为第21排和第28排的A、C、H、K。</p>
+						<p>所有座位的扶手均不可抬升。</p>
+						<p>无窗座位为第28排的A、K。</p>
+						<p>显示器设置在第20排的前方。</p>
+						<p>可使用轮椅、带尿布更换台的温水清洗功能的卫生间在第1排的A、D前方设有1处。</p>
+						<p>可使用轮椅的温水清洗功能的卫生间在第1排的G、K前方，第18排的D后方各设有1处。</p>
+						<p>带尿布更换台的温水清洗功能的卫生间在第18排的C与H的后方各设有1处，在第30排的H、K的后方各设有1处。</p>
+						<p>带温水清洗功能的卫生间在第18排的G的后方设有1处。</p>
+						<p>厨房位于第2排后方和机体后方。</p>
+						<p>酒吧在第1排和第5排的前方各设有1处。</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -128,5 +178,7 @@
 			</ul>
 		</div>
 	</div>
+	<script src="js/jquery-1.4.3.min.js"></script>
+	<script src="js/tab.js"></script>
 </body>
 </html>

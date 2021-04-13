@@ -384,8 +384,8 @@ p.title{
 }
 
 #totop{
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	position: fixed;
 	right: 0px;
 	bottom: 50px;
@@ -394,11 +394,9 @@ p.title{
 }
 #totop #btn{
 	display: block;
-	width: 80px;
-	height: 80px;
-	background: url("/img/飞机.png") no-repeat 0px 0px;
-	border-radius: 9px;
-    border: 1px solid #000;
+	width: 40px;
+	height: 40px;
+	background: url("/img/置顶.png") no-repeat 0px 0px;
 }
 
 .fix{
