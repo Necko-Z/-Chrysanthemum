@@ -1,0 +1,50 @@
+#main{
+    width: 100%;
+    height: 2856px;
+}
+
+.title{
+    margin-top: 50px;
+    border-bottom: 3px rgb(246,184,30) dashed;
+}
+.title p{
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+}
+.aircraft{
+    margin-top: 50px;
+}
+.airboxleft{
+    width: 50%;
+    float: left;
+    border: 1px solid #000;
+}
+.airboxleft img{
+    width: 70%;
+    margin: 0 auto;
+    /* 手动居中 */
+}
+ .airboxright{
+    width: 45%;
+    /* 去边框改成50 */
+    float: left;
+    padding-left: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    padding:10px;
+}
+
+td{
+    border-bottom: 1px solid rgb(194,194,194);
+    padding: 10px;
+}
+.firstline td{   
+    border-bottom: 3px rgb(246,184,30) solid;
+    font-weight: bold;
+}
+.lastline td{
+    border: none;
+}
