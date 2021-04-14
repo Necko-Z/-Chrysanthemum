@@ -1,0 +1,64 @@
+#banner{
+    height: 412px;
+}
+
+
+
+
+#main{
+    height: 1500px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+}
+.wid80{
+    border-top: 2px solid rgb(255, 255, 255);
+}
+.title{
+    color: rgb(246,184,30);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.content li{
+    height: 200px;
+    border: 1px solid rgb(241, 21, 21);
+    margin-top: 30px;
+}
+.content li>div{
+    margin-left: 25px;
+    float: left;    
+    margin-top: 25px;
+}
+.content li .card{
+    width: 35%;
+    border: 1px solid rgb(105, 9, 9);
+}
+.content li .info{
+    line-height: 50px;
+}
+.content img{
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(88, 88, 88);
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.info>div{
+    width: 400px;
+    height: 50px;
+    border: 1px dotted rgb(236, 202, 8);
+}
+.level p{
+    font-family: Corbel;
+    font-size: 30px;
+    font-weight: 300;
+}
+.need{
+    border: 1px solid rgb(255, 255, 255);
+}
+.need .leg{
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.need>div{
+    float: left;
+}

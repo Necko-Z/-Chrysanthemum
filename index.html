@@ -93,11 +93,30 @@
 			</div>
 		</div>		
 	</div>
+	
+	<div id="service">
+		<div class="container">		
+			<div class="service_top">
+				<p class="title">Chrysanthemum Service</p>
+				<p class="fill">特色服务</p>
+			</div>
+			<div class="servicebox">
+				<a href=""><div>精选航线</div></a> 
+				<a href="plane-index.html"><div style="background-image: url(../img/s2.png)">明星机型</div></a> 
+				<a href=""><div>特色美食</div></a>
+				<a href=""><div>尊享服务</div></a> 				
+				<a href="club.html"><div>会员体系</div></a> 			
+			</div>
+		</div>
+	</div>
 	<div id="star">
 		<div class="container">
 			<div class="star_top">
-				<p class="title">Chrysanthemum Star</p>
-				<p class="fill">明星机型</p>
+				<div class="star_top_text">
+					<p class="title">Chrysanthemum Star</p>
+					<p class="fill">明星机型</p>
+				</div>
+				<div class="more"><a href="plane-index.html">更多>>></a> </div>
 			</div>
 			<div class="left">
 				<ul>
@@ -155,21 +174,6 @@
 						
 					</li>
 				</ul>
-			</div>
-		</div>
-	</div>
-	<div id="service">
-		<div class="container">		
-			<div class="service_top">
-				<p class="title">Chrysanthemum Service</p>
-				<p class="fill">特色服务</p>
-			</div>
-			<div class="servicebox">
-				<div>Lorem</div>
-				<div>Lorem</div>`
-				<div>Lorem</div>
-				<div>Lorem</div>
-				<div>Lorem</div>
 			</div>
 		</div>
 	</div>
@@ -250,7 +254,7 @@
 			<ul>
 				<li>
 					<ol>
-						<li><a href="#">关于菊航</a></li>
+						<li>关于菊航</li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
@@ -258,7 +262,7 @@
 				</li>
 				<li>
 					<ol>
-						<li><a href="#">客户服务</a></li>
+						<li>客户服务</li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
@@ -266,7 +270,7 @@
 				</li>
 				<li>
 					<ol>
-						<li><a href="#">网站支持</a></li>
+						<li>网站支持</li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
@@ -274,7 +278,7 @@
 				</li>
 				<li>
 					<ol>
-						<li><a href="#">政策法律</a></li>
+						<li>政策法律</li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
 						<li><a href="#">Lorem.</a></li>
@@ -290,7 +294,7 @@
 				</li>
 				<li>
 					<ol>
-						<li><a href="#">Lorem</a></li>
+						<li>Lorem</li>
 						<li><a href="#">Lorem</a></li>
 						<li><a href="#">Lorem</a></li>
 						<li><a href="#">Lorem</a></li>
@@ -321,26 +325,11 @@
 
 	<script src="js/jquery-1.4.3.min.js"></script>
 	<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+	<script src="js/banner.js"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
 			$('#slider').nivoSlider();
 		});
-
-	</script>
-	<script>
-		$(function(){
-		var navBar = $("#nav");
-		var titleTop = navBar.offset().top;
-
-		$(window).scroll(function(){
-			var btop = $(window).scrollTop();
-			if (btop > titleTop) {
-				navBar.addClass('fix');
-			} else {
-				navBar.removeClass('fix');
-			}
-		})
-	})
 	</script>
 </body>
 </html>

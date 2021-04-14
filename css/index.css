@@ -203,16 +203,55 @@ p.title{
 
 
 
+#service{
+    height: 400px;
+}
+#service .service_top{
+    width: 400px;
+    margin: 20px auto ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+#service .servicebox{
+    padding-left: 85px;
+}
+#service .servicebox div{
+    width: 180px;
+    /* 144px */
+    height: 250px;
+    /* 200px */
+    border: 1px solid #000;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    transition: all .3s ;
+}
+#service .servicebox div:hover{
+    transform: translateY(-10px);
+    border-bottom: 1px solid rgb(231, 1, 1);
+}
+/* 拉伸背景图片 */
+#service .servicebox div{
+    background-size: cover;
+}
+
 
 
 #star{
     height: 750px;
 }
 #star .star_top{
-    width: 400px;
     margin: 20px auto ;
+}
+#star .star_top_text{
+    width: 400px;
+    margin: 0 auto;
     padding-bottom: 20px;
     border-bottom: 1px solid #999;
+}
+#star .more{
+    float: right;
+    margin-top: -20px;
 }
 #star div h2{
     margin-top: 0px;
@@ -236,32 +275,6 @@ p.title{
     transform: scale(1.2);
 }
 
-
-#service{
-    height: 400px;
-}
-#service .service_top{
-    width: 400px;
-    margin: 20px auto ;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #999;
-}
-#service .servicebox{
-    padding-left: 85px;
-}
-#service .servicebox div{
-    width: 180px;
-    height: 250px;
-    border: 1px solid #000;
-    float: left;
-    margin-right: 50px;
-    text-align: center;
-    transition: all .3s ;
-}
-#service .servicebox div:hover{
-    transform: translateY(-10px);
-    border-bottom: 1px solid rgb(231, 1, 1);
-}
 
 
 
@@ -292,6 +305,7 @@ p.title{
     width: 200px;
     height: 100px;
     position: relative;
+    margin-top: -10px;
 }
 #ad dl img{
     position: absolute;
