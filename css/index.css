@@ -145,7 +145,8 @@ p.title{
     height: 180px;
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 0 0 5px #b3b3b3;
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 1px 1px 5px 1px rgb(196, 196, 196);
     background-color: white;
 }
 #search .searchboxleft{
@@ -204,7 +205,11 @@ p.title{
 
 
 #service{
-    height: 400px;
+    height: 900px;
+}
+#service .wid90{
+    width: 90%;
+    margin:0 auto;
 }
 #service .service_top{
     width: 400px;
@@ -212,15 +217,19 @@ p.title{
     padding-bottom: 20px;
     border-bottom: 1px solid #999;
 }
-#service .servicebox{
-    padding-left: 85px;
+#service .serviceboxout{
+    width: 65%;
+    height: 900px;
+    float: left;
+    border-right: 3px solid rgb(247,181,48);
 }
 #service .servicebox div{
     width: 180px;
     /* 144px */
     height: 250px;
     /* 200px */
-    border: 1px solid #000;
+    border: 1px solid rgb(168, 168, 168);
+    box-shadow: 1px 1px 10px 1px gray;
     float: left;
     margin-right: 50px;
     text-align: center;
@@ -228,11 +237,39 @@ p.title{
 }
 #service .servicebox div:hover{
     transform: translateY(-10px);
-    border-bottom: 1px solid rgb(231, 1, 1);
+    border-bottom: 3px solid rgb(247,181,48);
 }
 /* 拉伸背景图片 */
 #service .servicebox div{
     background-size: cover;
+}
+
+#service .news{
+    float: right;
+    width: 32%;
+    height: 900px;
+}
+#service .news_top{
+    padding: 20px;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+#service .more{
+    float: right;
+    margin-top: -20px;
+    font-size: 10px;
+}
+#service .ncleft p{
+    border-bottom: 1px solid rgb(163, 163, 163);
+    margin-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    
+}
+#service .ncright p{
+    line-height: 36px;
+    padding-right: 10px;
 }
 
 

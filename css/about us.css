@@ -1,0 +1,47 @@
+video{
+    width: 100%;
+    margin-top: -100px;
+}
+#banner{
+    height: 412px;
+    overflow: hidden;
+}
+#main{
+    font-family: "华文中宋";
+}
+#main .title{
+    margin: 20px;
+    font-family: "思源黑体";
+    border-left: 4px solid rgb(247,181,48);
+    padding-left: 20px;
+}
+.wid80 .eng{
+    color: rgb(247,181,48);
+    font-family: "思源黑体";
+    font-size: 40px;
+}
+.wid80 .ch{
+    line-height: 63px;
+    font-family: "思源黑体";
+}
+.story p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.timeline, .sologn{
+    border-top: 2px solid rgb(247,181,48);
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.sologn h3{
+    padding: 10px;
+}
+.timeline h3{
+    font-size: 30px;
+    color:rgb(247,181,48);
+}
+.timeline p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
